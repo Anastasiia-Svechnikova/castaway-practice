@@ -1,0 +1,375 @@
+
+/* palette 
+main-color: #ffffff;
+background-color: #191919;
+background-black-color: #000000;
+accent-color: #118DA8;
+
+*/
+:root {
+    --main-text-color: #ffffff;
+    --main-backgrounf-color: #191919;
+    --accent-color: #118da8;
+    --background-black-color: #000000;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--main-backgrounf-color);
+    vertical-align: top;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+li {
+    list-style: none;
+}
+/* button */
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 6px;
+}
+
+
+.link-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 1.5;
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+.container {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* header */
+header {
+    background-color: var(--main-backgrounf-color);
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+.menu > ul {
+    margin: 0;
+    padding-left: 0;
+}
+.menu .item {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-right: 40px;
+}
+
+
+/* hero */
+.hero {
+    padding-top: 40px;
+ 
+}
+.hero img {
+    display: block;
+    border-radius: 14px;
+}
+.hero .title {
+    font-size: 70px;
+    line-height: 1.25;
+    letter-spacing: 3.2px;
+    font-weight: inherit;
+    margin-bottom: 90px;
+}
+.hero .title-medium {
+    font-size: 75px;
+    line-height: 1.17;
+    letter-spacing: 3.2px;
+    font-weight: inherit;
+
+}
+.hero .title-large {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 15px;
+    line-height: 1.6;
+    mask-border: 16px;
+}
+.hero .icon-list {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+.hero .icon {
+    display: inline-block;
+    margin-right: 17px;
+    
+}
+
+/* episodes */
+.episodes {
+    padding-top: 93px;
+    padding-bottom: 160px;
+}
+.episodes .title {
+    font-size: 64px;
+    line-height: 1.23;
+    letter-spacing: 2.88px;
+    font-weight: inherit;
+    margin: 0;
+}
+.episodes-nav {
+    margin-bottom: 40px;
+}
+.episodes-nav .link-button {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.episodes-list {
+    margin: 0;
+    padding: 0;
+}
+.episodes-list .list-item {
+    background-color: var(--background-black-color);
+    border-radius: 32px;
+    padding: 40px;
+}
+.episodes-list .list-item:not(:last-of-type) {
+    margin-bottom: 60px;
+}
+.episodes img {
+    display: block;
+}
+.episodes-list .category {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1.6;
+    background-color: var(--main-backgrounf-color);
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+.episode-num {
+    color: var(--accent-color);
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.episode-num .num {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-bottom: 18px;
+}
+.episodes .subtitle{
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 2.56;
+    font-weight: inherit;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.episodes .description {
+    font-size: 22px;
+    line-height: 1.5;
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+
+/* about */
+.about .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro::before  {
+    display: block;
+    content: '';
+    background-image: url(../images/frame.png);
+    width: 112px;
+    height: 112px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.about .intro {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--accent-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about .title {
+    font-size: 65px;
+    line-height: 1.21;
+    letter-spacing: 2.88px;
+    font-weight: inherit;
+
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.about p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    
+    margin-bottom: 33px;
+}
+.about p:last-of-type {
+    margin-bottom: 0;
+}
+.about img {
+    display: block;
+    border-radius:14px;
+    
+}
+
+/* subscription */
+.subscription .container {
+    padding-top: 100px;    
+    padding-bottom: 100px;
+   
+}
+.subscription-block{
+    background-color: var(--background-black-color);
+    border-radius: 32px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 85px;
+}
+.subscription p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--accent-color);
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subscription .title {
+    font-size: 72px;
+    line-height: 1.1;
+    font-weight: inherit;
+    letter-spacing: 2.88px;
+
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+.subscription .submit {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 1.92;
+    font-weight: 700;
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.references .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.references .title {
+    display: none;
+}
+.references .list {
+    margin: 0;
+    padding: 0;
+}
+.references .list-item {
+    padding-top: 54px;
+    padding-left: 50px;
+    background-color: var(--background-black-color);
+    border-radius: 32px;
+}
+.references .item-title {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    vertical-align: top;
+    font-weight: inherit;
+
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.references .item-title::before {
+    display: block;
+    content: '';
+    height: 16.36px;
+    width: 109px;
+    background-image: url(../images/star-icon.svg);
+    background-size: contain;
+
+    margin-bottom: 21px;
+}
+.references .author {
+    font-size: 24px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.7);
+
+    margin-top: 0;
+
+
+}
+/* footer */
+.footer .container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.footer .logo {
+    margin-bottom: 25px;
+}
+.footer .link-list {
+    font-size: 0;
+
+    margin: 0;
+    padding: 0;
+
+}
+.footer .link-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer .nav-list, 
+.footer .extra-list {
+    font-size: 17px;
+    line-height: 1.6;
+}
+.footer .icon-list,
+.footer .nav-list,
+.footer .extra-list {
+    padding: 0;
+    margin: 0;
+}
+.nav-list li,
+.extra-list li {
+    margin-bottom: 10px;
+}
+.footer .icon-list,
+.footer .link-list {
+    font-size: 0;
+}
+
+.footer .icon {
+    display: inline-block;
+    margin-right: 17px;
+}
