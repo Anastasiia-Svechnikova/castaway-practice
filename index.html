@@ -14,26 +14,28 @@
 <body>
     <!-- header -->
     <header>
-        <div class="container">
-            <a href="./index.html">
-            <img class="logo" src="./images/vector.svg" alt="logotype" width="160">
-            </a>
-            <nav class="menu">
-                <ul>
-                    <li class="item">
-                        <a href="/">Home</a>
-                    </li>
-                    <li class="item">
-                        <a href="/">Episodes</a>
-                    </li>
-                    <li class="item">
-                        <a href="/">About</a>
-                    </li>
-                    <li class="item">
-                        <a href="/">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="container-header">
+            <div class="menu-container">
+                <a href="./index.html">
+                    <img class="logo" src="./images/vector.svg" alt="logotype" width="160">
+                </a>
+                <nav>
+                    <ul class="menu">
+                        <li class="item">
+                            <a class="accent" href="/">Home</a>
+                        </li>
+                        <li class="item">
+                            <a href="/">Episodes</a>
+                        </li>
+                        <li class="item">
+                            <a href="/">About</a>
+                        </li>
+                        <li class="item">
+                            <a href="/">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <!-- main -->
@@ -42,35 +44,38 @@
         <section class="hero">
             <div class="container">
                 <img src="./images/hero-image.jpg" alt="a man with headphones" width="650">
-                <h1 class="title">Take your <br> podcast to the <br> <span class="title-medium">next</span> <span class="title-large">level</span> </h1>
-                <p>Listen on</p>
-                <ul class="icon-list">
-                    <li class="icon">
-                        <a href="/">
-                            <img src="./images/icon1.svg" alt="green icon">
-                        </a>
-                    </li>
-                    <li class="icon">
-                        <a href="/">
-                            <img src="./images/icon2.svg" alt="red icon">
-                        </a>
-                    </li>
-                    <li class="icon">
-                        <a href="/">
-                            <img src="./images/icon3.svg" alt="orange icon">
-                        </a>
-                    </li>
-                    <li class="icon">
-                        <a href="/">
-                            <img src="./images/icon4.svg" alt="purple icon">
-                        </a>
-                    </li>
-                    <li class="icon">
-                        <a href="/">
-                            <img src="./images/icon5.svg" alt="white icon">
-                        </a>
-                    </li>
-                </ul>
+                <div class="hero-text">
+                    <h1 class="title">Take your <br> podcast to the <br> <span class="title-medium">next</span> <span
+                            class="title-large">level</span> </h1>
+                    <p>Listen on</p>
+                    <ul class="icon-list">
+                        <li>
+                            <a class="first-icon" href="/">
+                                <!-- <img src="./images/icon1.svg" alt="green icon"> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a class="second-icon" href="/">
+                                <!-- <img src="./images/icon2.svg" alt="red icon"> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a class="third-icon" href="/">
+                                <!-- <img src="./images/icon3.svg" alt="orange icon"> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fourth-icon" href="/">
+                                <!-- <img src="./images/icon4.svg" alt="purple icon"> -->
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fifth-icon" href="/">
+                                <!-- <img src="./images/icon5.svg" alt="white icon"> -->
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- latest episodes -->
@@ -85,37 +90,45 @@
                     <li class="list-item">
                         <article>
                             <img src="./images/article-image1.jpg" alt="controls in stereo studio" width="389">
-                            <p class="category">Gear</p>
-                            <p class="episode-num">Episode <span class="num">3</span></p>
-                            <h3 class="subtitle">Should you get <br> outboard audio gear?</h3>
-                            <p class="description">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons
-                                on why
-                                you might
-                                want to consider picking something up.</p>
-                            <a class="link-button" href="/">View Episode Details</a>
+                            <div class="article-text">
+                                <p class="category">Gear</p>
+                                <p class="episode-num">Episode <span class="num">3</span></p>
+                                <h3 class="subtitle">Should you get <br> outboard audio gear?</h3>
+                                <p class="description">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our
+                                    reasons
+                                    on why
+                                    you might
+                                    want to consider picking something up.</p>
+                                <a class="link-button" href="/">View Episode Details</a>
+                            </div>
                         </article>
                     </li>
                     <li class="list-item">
                         <article>
                             <img src="./images/article-image2.jpg" alt="a studio microphone" width="389">
-                            <p class="category">Tips & Tricks</p>
-                            <p class="episode-num">Episode <span class="num">2</span></p>
-                            <h3 class="subtitle">Mic tricks to take <br> you to the next level</h3>
-                            <p class="description">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good
-                                to great.</p>
-                            <a class="link-button" href="/">View Episode Details</a>
-                
+                            <div class="article-text">
+                                <p class="category">Tips & Tricks</p>
+                                <p class="episode-num">Episode <span class="num">2</span></p>
+                                <h3 class="subtitle">Mic tricks to take <br> you to the next level</h3>
+                                <p class="description">Stop rolling with those default settings on your mic. These small tweaks will take you from
+                                    sounding good
+                                    to great.</p>
+                                <a class="link-button" href="/">View Episode Details</a>
+                            </div>
                         </article>
                     </li>
                     <li class="list-item">
                         <article>
                             <img src="./images/article-image3.jpg" alt="a man with a studio microphone and headphones" width="389">
-                            <p class="category">Gear</p>
-                            <p class="episode-num">Episode <span class="num">1</span></p>
-                            <h3 class="subtitle">The best microphone <br> under $200</h3>
-                            <p class="description">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our
-                                top picks.</p>
-                            <a class="link-button" href="/">View Episode Details</a>
+                            <div class="article-text">
+                                <p class="category">Gear</p>
+                                <p class="episode-num">Episode <span class="num">1</span></p>
+                                <h3 class="subtitle">The best microphone <br> under $200</h3>
+                                <p class="description">With so many microphones on the market, how are you supposed to know what’s the best? Take a look
+                                    at our
+                                    top picks.</p>
+                                <a class="link-button" href="/">View Episode Details</a>
+                            </div>
                         </article>
                     </li>
                 </ul>
@@ -124,10 +137,12 @@
         <!-- about -->
         <section class="about">
             <div class="container">
-                <p class="intro">Meet your host</p>
-                <h2 class="title">Jacob Paulaner</h2>
-                <p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
-                <p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                <div class="about-text">
+                    <p class="intro">Meet your host</p>
+                    <h2 class="title">Jacob Paulaner</h2>
+                    <p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+                    <p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+                </div>
                 <img src="./images/portrait.jpg" alt="a man talking in the record studio" width="650">
             </div>
         </section>
@@ -136,7 +151,7 @@
             <div class="container">
                 <div class="subscription-block">
                 <p>Email Newsletter</p>
-                <h2 class="title">Subscribe for updates</h2>
+                <h2 class="title">Subscribe <br> for updates</h2>
                 <!-- <input type="text"> -->
                 <button class="submit" type="button">Submit</button>
             </div>
@@ -178,87 +193,88 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <a href="./index.html">
-                <img class="logo" src="./images/vector.svg" alt="logotype" width="224">
-            </a>
-            <ul class="link-list">
-                <li class="link-icon">
-                    <a href="/">
-                        <img src="./images/instagram-icon.svg" alt="instagram icon" width="24">
-                    </a>
-                </li>
-                <li class="link-icon">
-                    <a href="/">
-                        <img src="./images/twitter-icon.svg" alt="twitter icon" width="24">
-                    </a>
-                </li>
-                <li class="link-icon">
-                    <a href="/">
-                        <img src="./images/facebook-icon.svg" alt="facebook icon" width="24">
-                    </a>
-                </li>
-            </ul>
-            <ul class="nav-list">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/">Episodes</a>
-                </li>
-                <li>
-                    <a href="/">About</a>
-                </li>
-                <li>
-                    <a href="/">Contact</a>
-                </li>
-            </ul>
-            <ul class="extra-list">
-                <li>
-                    <a href="/">Style Guide</a>
-                </li>
-                <li>
-                    <a href="/">Instructions</a>
-                </li>
-                <li>
-                    <a href="/">Changelog</a>
-                </li>
-                <li>
-                    <a href="/">Credit</a>
-                </li>
-                <li>
-                    <a href="/">Powered by Webflow</a>
-                </li>
-                <li>
-                    <a href="/">Licenses</a>
-                </li>
-            </ul>
-            <ul class="icon-list">
-                <li class="icon">
-                    <a href="/">
-                        <img src="./images/icon1.svg" alt="green icon">
-                    </a>
-                </li>
-                <li class="icon">
-                    <a href="/">
-                        <img src="./images/icon2.svg" alt="red icon">
-                    </a>
-                </li>
-                <li class="icon">
-                    <a href="/">
-                        <img src="./images/icon3.svg" alt="orange icon">
-                    </a>
-                </li>
-                <li class="icon">
-                    <a href="/">
-                        <img src="./images/icon4.svg" alt="purple icon">
-                    </a>
-                </li>
-                <li class="icon">
-                    <a href="/">
-                        <img src="./images/icon5.svg" alt="white icon">
-                    </a>
-                </li>
-            </ul>
+            <div class="left-footer">
+                <a href="./index.html">
+                    <img class="logo" src="./images/vector.svg" alt="logotype" width="224">
+                </a>
+                <ul class="link-list">
+                    <li>
+                        <a class="insta-icon" href="/">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter-icon" href="/">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fbook-icon" href="/">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-footer">
+                <ul class="nav-list">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">Episodes</a>
+                    </li>
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
+                </ul>
+                <ul class="extra-list">
+                    <li>
+                        <a href="/">Style Guide</a>
+                    </li>
+                    <li>
+                        <a href="/">Instructions</a>
+                    </li>
+                    <li>
+                        <a href="/">Changelog</a>
+                    </li>
+                    <li>
+                        <a href="/">Credit</a>
+                    </li>
+                    <li>
+                        <a href="/">Powered by Webflow</a>
+                    </li>
+                    <li>
+                        <a href="/">Licenses</a>
+                    </li>
+                </ul>
+                <ul class="icon-list">
+                    <li>
+                        <a class="first-icon" href="/">
+                            <!-- <img src="./images/icon1.svg" alt="green icon"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a class="second-icon" href="/">
+                            <!-- <img src="./images/icon2.svg" alt="red icon"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a class="third-icon" href="/">
+                            <!-- <img src="./images/icon3.svg" alt="orange icon"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fourth-icon" href="/">
+                            <!-- <img src="./images/icon4.svg" alt="purple icon"> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fifth-icon" href="/">
+                            <!-- <img src="./images/icon5.svg" alt="white icon"> -->
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 
