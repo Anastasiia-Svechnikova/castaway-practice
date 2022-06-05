@@ -69,6 +69,17 @@ header {
     /* padding-top: 46px;
     padding-bottom: 46px; */
 }
+
+.logo {
+    height: 33px;
+    width: 160px;
+   
+}
+
+.logo:hover {
+    --color2:var(--accent-color);
+
+}
 .menu  {
     display:flex;
     justify-content: space-between;
@@ -154,55 +165,50 @@ header {
 .icon-list li {
     display: inline-block;
 }
-.first-icon {
+.hero .list-item,
+.footer .list-item
+ {
     height: 32px;
     width: 32px;
-    background-image: url(../images/icon1.svg);
-    background-size: contain;
-    background-position: center;
+   
 
     display: inline-block;
     margin-right: 17px;
+}
+
+.first-icon {
+    height: 32px;
+    width: 32px;
+
 }
 .second-icon {
     height: 32px;
     width: 32px;
-    background-image: url(../images/icon2.svg);
-    background-size: contain;
-    background-position: center;
-
-    display: inline-block;
-    margin-right: 17px;
-}
+    
+}  
 .third-icon {
+    --color4: transparent;
+    background-image: linear-gradient(to bottom,
+    #FF7402,
+    #FF3802);
+        border-radius: 50%;
     height: 32px;
-    width: 32px;
-    background-image: url(../images/icon3.svg);
-    background-size: contain;
-    background-position: center;
-
-    display: inline-block;
-    margin-right: 17px;
+    width: 32px; 
 }
 .fourth-icon {
+    --color4: transparent;
+    background-image: linear-gradient( to bottom,
+    #F452FF,
+    #832BC1 );
+    border-radius: 8px;
     height: 32px;
     width: 32px;
-    background-image: url(../images/icon4.svg);
-    background-size: contain;
-    background-position: center;
-
-    display: inline-block;
-    margin-right: 17px;
+    
 }
 .fifth-icon {
     height: 32px;
     width: 32px;
-    background-image: url(../images/icon5.svg);
-    background-size: contain;
-    background-position: center;
 
-    display: inline-block;
-    margin-right: 17px;
 }
 
 /* episodes */
@@ -399,6 +405,16 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.rating {
+   margin: 0;
+   padding:0;
+}
+.rating-star{
+    height: 18px;
+    width: 18px;
+
+    margin-bottom: 21px;
+}
 .references .title {
     display: none;
 }
@@ -411,6 +427,7 @@ header {
 }
 .references .list-item {
     background-color: var(--background-black-color);
+    /* min-height: 320px; */
     flex-basis: calc((100% - 32px)/3);
     
     padding-top: 54px;
@@ -435,7 +452,7 @@ header {
     margin-top: 0;
     margin-bottom: 19px;
 }
-.references .item-title::before {
+/* .references .item-title::before {
     display: block;
     content: '';
     height: 18px;
@@ -445,13 +462,14 @@ header {
     background-repeat: round;
 
     margin-bottom: 21px;
-}
+} */
 .references .author {
     font-size: 24px;
     line-height: 1.2;
     color: rgba(255, 255, 255, 0.7);
 
     margin-top: 0;
+    margin-bottom: 50px;
 
 
 }
@@ -472,6 +490,9 @@ header {
     width: 197px;
 }
 .footer .logo {
+    height: 46px;
+    width: 223px;
+
     margin-bottom: 25px;
 }
 .link-list {
@@ -484,7 +505,12 @@ header {
     margin: 0;
 
 }
-.insta-icon {
+.network-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+/* .insta-icon {
     display: inline-block;
     height: 24px;
     width:24px;
@@ -510,6 +536,10 @@ header {
     background-size: contain;
     background-position: center;
     margin-right: 10px;
+} */
+
+.footer use {
+    width: 225px;
 }
 .footer .nav-list, 
 .footer .extra-list {
