@@ -53,7 +53,9 @@ button {
 
 
 .container {
-    width: 1300px;
+    max-width: 1340px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -99,6 +101,11 @@ header {
 .menu .accent {
     color:var(--accent-color);
 }
+.menu a {
+    display: block;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
 .menu a:hover,
 .menu a:focus {
     color: var(--accent-color);
@@ -106,8 +113,8 @@ header {
 .menu-container {
     display: flex;
     align-items: center;
-    padding-top: 46px;
-    padding-bottom: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: space-between;
 }
 
@@ -125,10 +132,12 @@ header {
 }
 .hero {
     padding-top: 40px;
- 
+
 }
+
 .hero img {
     display: block;
+    width: 100%;
     border-radius: 14px;
 }
 .hero .title {
@@ -254,12 +263,14 @@ header {
     display: flex;
 }
 .article-text {
+    max-width: 831px;
     padding-left: 53px;
 }
 .episodes-list .list-item:not(:last-of-type) {
     margin-bottom: 60px;
 }
 .episodes img {
+    width: 100%;
     display: block;
 }
 .episodes-list .category {
@@ -311,6 +322,7 @@ header {
 }
 .about-text {
     padding-right: 94px;
+    max-width: 50%;
 }
 .intro::before  {
     display: block;
@@ -350,6 +362,7 @@ header {
     margin-bottom: 0;
 }
 .about img {
+    width: 100%;
     display: block;
     border-radius:14px;
     
